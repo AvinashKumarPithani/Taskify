@@ -1,8 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import { TodoProvider } from "./contexts"
+import { TodoProvider } from "./contexts/index"
 import { useEffect } from 'react'
 import { TodoForm, TodoItem } from './components'
 
